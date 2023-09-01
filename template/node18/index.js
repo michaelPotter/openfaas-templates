@@ -6,7 +6,7 @@
 
 const express = require('express')
 const app = express()
-const handler = require('./src/main/js/app.js');
+const handler = require('./function/src/main/js/app.js');
 const bodyParser = require('body-parser')
 
 const defaultMaxSize = '100kb' // body-parser default
